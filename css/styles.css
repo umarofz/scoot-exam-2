@@ -1185,6 +1185,13 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 180px;
   max-width: 200px;
   width: 100%;
+  border: 3px solid #FCB72B;
+  transition: all 0.3s ease;
+}
+.use__link:hover {
+  color: #FCB72B;
+  background: none;
+  border: 3px solid #FCB72B;
 }
 .use__img {
   width: 445px;
@@ -1254,6 +1261,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 200px;
     width: 100%;
     margin-left: 200px;
+    border: 3px solid #FCB72B;
+    transition: all 0.3s ease;
+  }
+  .use__link:hover {
+    color: #FCB72B;
+    background: none;
+    border: 3px solid #FCB72B;
   }
   .use__img {
     width: 445px;
@@ -1316,6 +1330,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 200px;
     width: 100%;
     margin-left: 75px;
+    border: 3px solid #FCB72B;
+    transition: all 0.3s ease;
+  }
+  .use__link:hover {
+    color: #FCB72B;
+    background: none;
+    border: 3px solid #FCB72B;
   }
   .use__img {
     width: 311px;
