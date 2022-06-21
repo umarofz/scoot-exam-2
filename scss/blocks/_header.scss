@@ -45,10 +45,22 @@
     font-size: 15px;
     line-height: 25px;
     color: $dim-grey;
+
+    &:hover {
+      color: $yellow;
+    }
   }
 
   &__btn {
     @include button;
+    border: 3px solid #FCB72B;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $yellow;
+      background: none;
+      border: 3px solid #FCB72B;
+    }
   }
 
   &__burger-btn {
@@ -70,6 +82,24 @@
 
     &__nav {
       margin-right: 94px;
+    }
+
+    &__btn {
+      @include button;
+      border: 3px solid #FCB72B;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $yellow;
+        background: none;
+        border: 3px solid #FCB72B;
+      }
+    }
+
+    &__item-link {
+      &:hover {
+        color: $yellow;
+      }
     }
   }
 }
@@ -103,8 +133,10 @@
       .header__btn {
         display: block;
         position: absolute;
-        top: 650%;
+        top: 770%;
         left: -230%;
+        z-index: 11;
+        padding: 14px;
       }
     }
 
@@ -134,6 +166,8 @@
       left: -300%;
       right: 0;
       width: 270px;
+      height: 670px;
+      z-index: 10;
       background-color: #333A44;
     }
 
