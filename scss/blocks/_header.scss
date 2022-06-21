@@ -1,0 +1,174 @@
+.header {
+
+  &__inner-container {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+    margin-right: 58px;
+  }
+
+  &__logo {
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    margin-right: 511px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__item {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: $dim-grey;
+  }
+
+  &__btn {
+    @include button;
+  }
+
+  &__burger-btn {
+    border: none;
+    outline: none;
+    background: none;
+    display: none;
+  }
+
+  &__burger-img {
+  }
+
+  &__cross-img {
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+
+    &__nav {
+      margin-right: 94px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+
+    &__inner-container {
+    }
+
+    &__container {
+      position: relative;
+    }
+
+    &__container--active {
+      .header__nav {
+        display: flex;
+      }
+
+      .header__burger-img {
+        display: none;
+      }
+
+      .header__cross-img {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 45%;
+      }
+
+      .header__btn {
+        display: block;
+        position: absolute;
+        top: 650%;
+        left: -230%;
+      }
+    }
+
+    &__wrapper {
+      padding: 64px 32px 24px 32px;
+      position: relative;
+    }
+
+    &__logo-link {
+      padding-top: 22px;
+      padding-bottom: 22px;
+    }
+
+    &__logo {
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      width: 76px;
+      height: 20px;
+    }
+
+    &__nav {
+      padding: 64px 32px 363px 32px;
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: -300%;
+      right: 0;
+      width: 270px;
+      background-color: #333A44;
+    }
+
+    &__list {
+      flex-direction: column;
+      margin-left: 20px;
+      gap: 24px;
+    }
+
+    &__item {
+      padding: 0;
+    }
+
+    &__item-link {
+    }
+
+    &__btn {
+      display: none;
+    }
+
+    &__burger-btn {
+      display: block;
+    }
+
+    &__btn--active {
+    }
+
+    &__burger-img {
+      position: absolute;
+      left: 0;
+      top: 45%;
+    }
+
+    &__cross-img {
+      display: none;
+    }
+  }
+}

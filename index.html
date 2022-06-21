@@ -10,8 +10,34 @@
 </head>
 <body>
   <header class="header">
-    <div class="container">
-      <div class="header__container"></div>
+    <div class="container header__inner-container">
+      <div class="header__container">
+
+        <a class="header__logo-link" href="#"><img class="header__logo" src="./images/logo.svg" alt="scoot__logo" width="108" height="29"></a>
+        <div class="header__wrapper">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a class="header__item-link" href="#">About</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="#">Location</a>
+              </li>
+              <li class="header__item">
+                <a class="header__item-link" href="#">Careers</a>
+              </li>
+            </ul>
+          </nav>
+
+          <a class="button header__btn" href="#">Get Scootin</a>
+        </div>
+
+        <button class="header__burger-btn header__btn--active">
+          <img class="header__burger-img" src="./images/burger-menu.svg" alt="burger__menu" width="20" height="16">
+
+          <img class="header__cross-img" src="./images/burger-cross.svg" alt="burger__menu" width="18" height="18">
+        </button>
+      </div>
     </div>
   </header>
 
@@ -28,5 +54,7 @@
       <div class="footer__container"></div>
     </div>
   </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
