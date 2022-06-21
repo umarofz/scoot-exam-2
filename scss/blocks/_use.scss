@@ -1,0 +1,208 @@
+.use {
+  margin-bottom: 155px;
+
+  &__inner-container {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left {
+    max-width: 445px;
+    width: 100%;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 445px;
+      height: 445px;
+      background-color: $light-grey;
+      border-radius: 50%;
+      position: absolute;
+      // left: 149%;
+      top: -29%;
+      left: calc(250% + 64px);
+    }
+
+    &::after {
+      content: "";
+      display: inline-block;
+      background-image: url("./../../images/arrow-left-bottom.svg");
+      width: 741px;
+      height: 151px;
+      position: absolute;
+      left: 120%;
+      bottom: -28%;
+      transform: translateX(-1%) translateY(1%);
+    }
+  }
+
+  &__heading {
+    font-size: 48px;
+    line-height: 48px;
+    color: $dark-navy;
+    letter-spacing: -2.14286px;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    color: $dim-grey;
+  }
+
+  &__link {
+    @include button ;
+  }
+
+  &__img {
+    width: 445px;
+    height: 445px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .use {
+    margin-bottom: 128px;
+
+    &__inner-container {
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      &:nth-child(1) .use__left {
+        order: 1;
+      }
+    }
+
+    &__left {
+      max-width: 573px;
+      width: 100%;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 445px;
+        height: 445px;
+        background-color: $light-grey;
+        border-radius: 50%;
+        position: absolute;
+        // left: 149%;
+        top: -180%;
+        left: calc(90% + 64px);
+      }
+
+      &::after {
+        content: "";
+        display: inline-block;
+        background-image: url("./../../images/arrow-left-bottom.svg");
+        width: 741px;
+        height: 151px;
+        position: absolute;
+        left: -10%;
+        bottom: 120%;
+        transform: translateX(-1%) translateY(1%);
+      }
+    }
+
+    &__heading {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    &__text {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__link {
+      @include button ;
+      margin-left: 200px;
+    }
+
+    &__picture {
+    }
+
+    &__img {
+      width: 445px;
+      height: 445px;
+      margin-bottom: 56px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .use {
+    margin-bottom: 120px;
+
+    &__inner-container {
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      &:nth-child(1) .use__left {
+        order: 1;
+      }
+    }
+
+    &__left {
+      max-width: 311px;
+      width: 100%;
+      position: relative;
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        content: "";
+        display: inline-block;
+        background-image: url("./../../images/arrow-left-bottom.svg");
+        width: 741px;
+        height: 151px;
+        position: absolute;
+        left: 5%;
+        bottom: 115%;
+        transform: translateX(-1%) translateY(1%);
+      }
+    }
+
+    &__heading {
+      font-size: 32px;
+      line-height: 32px;
+      margin-bottom: 32px;
+    }
+
+    &__text {
+     margin-bottom: 32px;
+    }
+
+    &__link {
+      @include button ;
+      margin-left: 75px;
+    }
+
+    &__picture {
+    }
+
+    &__img {
+      width: 311px;
+      height: 311px;
+      margin-bottom: 56px;
+    }
+  }
+}

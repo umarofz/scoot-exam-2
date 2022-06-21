@@ -1,4 +1,5 @@
 .step {
+  margin-bottom: 200px;
 
   &__wrapper-container {
   }
@@ -73,6 +74,7 @@
 
 @media only screen and (max-width: 800px) {
   .step {
+    margin-bottom: 145px;
 
     &__wrapper-container {
     }
@@ -140,6 +142,7 @@
 
 @media only screen and (max-width: 600px) {
   .step {
+    margin-bottom: 145px;
 
     &__wrapper-container {
     }
@@ -207,6 +210,7 @@
 
 @media only screen and (max-width: 520px) {
   .step {
+    margin-bottom: 145px;
 
     &__wrapper-container {
     }
@@ -274,6 +278,7 @@
 
 @media only screen and (max-width: 400px) {
   .step {
+    margin-bottom: 120px;
 
     &__wrapper-container {
     }
