@@ -1,4 +1,5 @@
 .hero {
+  margin-bottom: 160px;
 
   &__bg-container {
     background-image: url("./../../images/hero__bgi.png");
@@ -162,6 +163,7 @@
 
 @media only screen and (max-width: 800px) {
   .hero {
+    margin-bottom: 122px;
 
     &__bg-container {
       background-image: url("./../../images/hero__bgi.png");
@@ -290,6 +292,7 @@
 
 @media only screen and (max-width: 400px) {
   .hero {
+    margin-bottom: 120px;
 
     &__bg-container {
       background-image: url("./../../images/hero__bgi.png");

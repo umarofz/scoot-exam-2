@@ -1,0 +1,336 @@
+.step {
+
+  &__wrapper-container {
+  }
+
+  &__inner-container {
+  }
+
+  &__container {
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 973px;
+      height: 15px;
+      position: absolute;
+      top: 10%;
+      left: -19%;
+      z-index: -1;
+      border: 7.5px solid #E5ECF4;
+    }
+  }
+
+  &__item {
+    max-width: 350px;
+    width: 100%;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 96px;
+      height: 96px;
+      background-color: $yellow;
+      border-radius: 50%;
+      background-image: url("./../../images/phone.svg");
+      background-repeat: no-repeat;
+      padding: 32px 27px;
+      background-position: calc(50% + 5px);
+      margin-bottom: 40px;
+    }
+    &:nth-child(2)::before {
+      background-image: url("./../../images/scooter.svg");
+    }
+    &:nth-child(3)::before {
+      background-image: url("./../../images/enjoy.svg");
+    }
+  }
+
+  &__item-span {
+  }
+
+  &__item-heading {
+    font-size: 24px;
+    line-height: 28px;
+    color: $dark-navy;
+    letter-spacing: -1.07143px;
+    margin-bottom: 27px;
+  }
+
+  &__item-text {
+    font-size: 15px;
+    line-height: 25px;
+    color: $dim-grey;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .step {
+
+    &__wrapper-container {
+    }
+
+    &__inner-container {
+    }
+
+    &__container {
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 40px;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 512px;
+        position: absolute;
+        top: -25%;
+        left: calc(50% - 260px);
+        z-index: -1;
+        border: 7.5px solid #E5ECF4;
+      }
+    }
+
+    &__item {
+      max-width: 573px;
+      width: 100%;
+      display: flex;
+
+      &::before {
+        margin-bottom: 0;
+        margin-right: 79px;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+      }
+      &:nth-child(2)::before {
+        background-image: url("./../../images/scooter.svg");
+      }
+      &:nth-child(3)::before {
+        background-image: url("./../../images/enjoy.svg");
+      }
+    }
+
+    &__item-span {
+    }
+
+    &__item-wrapper {
+
+    }
+
+    &__item-heading {
+    }
+
+    &__item-text {
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .step {
+
+    &__wrapper-container {
+    }
+
+    &__inner-container {
+    }
+
+    &__container {
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 40px;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 512px;
+        position: absolute;
+        top: -25%;
+        left: calc(50% - 235px);
+        z-index: -1;
+        border: 7.5px solid #E5ECF4;
+      }
+    }
+
+    &__item {
+      max-width: 573px;
+      width: 100%;
+      display: flex;
+
+      &::before {
+        margin-bottom: 0;
+        margin-right: 79px;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+      }
+      &:nth-child(2)::before {
+        background-image: url("./../../images/scooter.svg");
+      }
+      &:nth-child(3)::before {
+        background-image: url("./../../images/enjoy.svg");
+      }
+    }
+
+    &__item-span {
+    }
+
+    &__item-wrapper {
+
+    }
+
+    &__item-heading {
+    }
+
+    &__item-text {
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .step {
+
+    &__wrapper-container {
+    }
+
+    &__inner-container {
+    }
+
+    &__container {
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 40px;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 15px;
+        height: 512px;
+        position: absolute;
+        top: -25%;
+        left: calc(50% - 195px);
+        z-index: -1;
+        border: 7.5px solid #E5ECF4;
+      }
+    }
+
+    &__item {
+      max-width: 573px;
+      width: 100%;
+      display: flex;
+
+      &::before {
+        margin-bottom: 0;
+        margin-right: 79px;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+      }
+      &:nth-child(2)::before {
+        background-image: url("./../../images/scooter.svg");
+      }
+      &:nth-child(3)::before {
+        background-image: url("./../../images/enjoy.svg");
+      }
+    }
+
+    &__item-span {
+    }
+
+    &__item-wrapper {
+
+    }
+
+    &__item-heading {
+    }
+
+    &__item-text {
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .step {
+
+    &__wrapper-container {
+    }
+
+    &__inner-container {
+    }
+
+    &__container {
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 40px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &__item {
+      max-width: 573px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &::before {
+        margin-bottom: 24px;
+        margin-left: 80px;
+        width: 96px;
+        height: 96px;
+        border-radius: 50%;
+      }
+      &:nth-child(2)::before {
+        background-image: url("./../../images/scooter.svg");
+      }
+      &:nth-child(3)::before {
+        background-image: url("./../../images/enjoy.svg");
+      }
+    }
+
+    &__item-span {
+    }
+
+    &__item-wrapper {
+
+    }
+
+    &__item-heading {
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -0.892857px;
+    }
+
+    &__item-text {
+      text-align: center;
+    }
+  }
+}
