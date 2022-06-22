@@ -68,13 +68,13 @@
   &__btn {
     @include button;
     margin-left: 95px;
-    border: 3px solid #FCB72B;
+    border: 3px solid $yellow;
     transition: all 0.3s ease;
 
     &:hover {
       color: $yellow;
       background: none;
-      border: 3px solid #FCB72B;
+      border: 3px solid $yellow;
     }
   }
 }
@@ -149,13 +149,13 @@
     &__btn {
       @include button;
       margin-left: 95px;
-      border: 3px solid #FCB72B;
+      border: 3px solid $yellow;
       transition: all 0.3s ease;
 
       &:hover {
         color: $yellow;
         background: none;
-        border: 3px solid #FCB72B;
+        border: 3px solid $yellow;
       }
     }
   }

@@ -58,13 +58,13 @@
 
   &__link {
     @include button ;
-    border: 3px solid #FCB72B;
+    border: 3px solid $yellow;
     transition: all 0.3s ease;
 
     &:hover {
       color: $yellow;
       background: none;
-      border: 3px solid #FCB72B;
+      border: 3px solid $yellow;
     }
   }
 
@@ -136,14 +136,14 @@
     &__link {
       @include button ;
       margin-left: 200px;
-      border: 3px solid #FCB72B;
-    transition: all 0.3s ease;
+      border: 3px solid $yellow;
+      transition: all 0.3s ease;
 
-    &:hover {
-      color: $yellow;
-      background: none;
-      border: 3px solid #FCB72B;
-    }
+      &:hover {
+        color: $yellow;
+        background: none;
+        border: 3px solid $yellow;
+      }
     }
 
     &__picture {
@@ -204,20 +204,20 @@
     }
 
     &__text {
-     margin-bottom: 32px;
+      margin-bottom: 32px;
     }
 
     &__link {
       @include button ;
       margin-left: 75px;
-      border: 3px solid #FCB72B;
-    transition: all 0.3s ease;
+      border: 3px solid $yellow;
+      transition: all 0.3s ease;
 
-    &:hover {
-      color: $yellow;
-      background: none;
-      border: 3px solid #FCB72B;
-    }
+      &:hover {
+        color: $yellow;
+        background: none;
+        border: 3px solid $yellow;
+      }
     }
 
     &__picture {
