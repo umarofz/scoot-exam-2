@@ -1,0 +1,280 @@
+.footer {
+  background-color: $dark;
+
+  &__inner-container {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-link {
+    margin-right: 59px;
+  }
+
+  &__logo {
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-right: 571px;
+  }
+
+  &__item {
+    padding-top: 36px;
+    padding-bottom: 35px;
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: $dim-grey;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  &__item-logo {
+  }
+
+  &__list2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__svg-logo {
+    color: $white;
+  }
+
+  &__insta {
+    color: $yellow;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .footer {
+    background-color: $dark;
+
+    &__inner-container {
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo-link {
+      margin-right: 59px;
+    }
+
+    &__logo {
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-right: 451px;
+    }
+
+    &__item {
+      padding-top: 36px;
+      padding-bottom: 35px;
+    }
+
+    &__item-link {
+      text-decoration: none;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+
+    &__item-logo {
+    }
+
+    &__list2 {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &__svg-logo {
+      color: $white;
+    }
+
+    &__insta {
+      color: $yellow;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $light-grey;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    background-color: $dark;
+
+    &__inner-container {
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    &__logo-link {
+      margin-right: 59px;
+    }
+
+    &__logo {
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin-right: 152px;
+    }
+
+    &__item {
+      padding-top: 36px;
+      padding-bottom: 35px;
+    }
+
+    &__item-link {
+      text-decoration: none;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+
+    &__item-logo {
+    }
+
+    &__list2 {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &__svg-logo {
+      color: $white;
+    }
+
+    &__insta {
+      color: $yellow;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $light-grey;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    background-color: $dark;
+
+    &__inner-container {
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 64px 127px 88px 128px;
+    }
+
+    &__logo-link {
+      margin-bottom: 41px;
+      margin-left: 50%;
+    }
+
+    &__logo {
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 47%;
+      gap: 16px;
+      margin-bottom: 85px;
+    }
+
+    &__item {
+      padding: 0;
+    }
+
+    &__item-link {
+      text-decoration: none;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      color: $dim-grey;
+
+      &:hover {
+        color: $yellow;
+      }
+    }
+
+    &__item-logo {
+    }
+
+    &__list2 {
+      display: flex;
+      align-items: center;
+      margin-left: -3%;
+      gap: 16px;
+    }
+
+    &__svg-logo {
+      color: $white;
+    }
+
+    &__insta {
+      color: $yellow;
+      transition: all 0.3s ease;
+
+      &:hover {
+        color: $light-grey;
+      }
+    }
+  }
+}
